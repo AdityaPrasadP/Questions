@@ -944,3 +944,56 @@ Wipro
 16. What is the benefit of closure?
 
 
+Apple F2F Round
+---------------
+Apple - Vitali
+
+What do you mean by Prototype - example
+Hoisting — example
+Strict mode - what does it do
+Write a promise to perform asynchronous task
+Callback —> example
+Scoping - let, const, var
+Array methods - map, filter, find, isArray, shift, unshift, pop, push, slice, splice
+Datatypes in javascript
+(Typeof) Array, function, etc
+What is JSX
+What is typescript and how it is different from javascript
+
+Output of the below code
+
+for(var i=0; i< 10; i++) {
+	fetch.get(‘url){
+		console.log(i);
+	}
+}
+Sol : 10 ten times
+
+How to make above code to get 0,1,2,3 …. 10
+Solution : 
+for(var I=0; I< 10; I++) {
+	(function(I){
+	fetch.get(‘url){
+		console.log(i);
+	}
+})(i)
+}
+
+CSS
+
+What are css preprocessors
+
+.class1.class2
+
+.class1 > .class2
+
+.class1 + .class2
+
+What are pseudo selectors -  name 
+
+Difference between : and ::
+
+How css3 is different from css preprocessors
+
+How to get even number of table rows and odd number of table rows
+
